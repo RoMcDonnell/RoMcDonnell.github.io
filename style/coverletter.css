@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  text-shadow: 1.5px 1.5px #e75480;
+}
+
+
+body {
+	text-align:center;
+	background-color:#C1E1C1;
+}
+
+p {
+	text-align:center;
+}
+
+.paragraph {
+	border: 5px #ccc solid;
+	padding: 0px;
+	display:flex;
+	background-color:#F8C8DC;
+	color:white;
+	justify-content:space-between;	
+}
+
+:
+	
