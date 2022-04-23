@@ -2,55 +2,176 @@
 <html>
 <head>
 <title>
+The Blackbird
 </title>
-<!-- CSS only -->
+<!-- bootstrap CSS  -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
+<!-- Bootstrap JavaScript Bundle with Popper  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style/CV.css">
-
+<link rel="stylesheet" href="style/website.css">
 </head>
 
-
 <body>
-<p>Go to the
-      <a href="#bottom">bottom</a></p>
-<h2 id="top">Top of page</h2>
+<div class="logo">
+<img src="images/logo.png" alt="Logo">
+</div>
+<h2>Welcome to our Official Website!</h2>
 
-    <h1>Rosie Mc Donnell</h1>
-    <h3>rosiemcdonnell1995@gmail.com</h3>
-    <h3>0879031231</h3>
-	<a href="about/coverletter.html">Click to view my Cover Letter!</a>
-	 </br>
-	 
-	<div class="all";>
 
-		<div class="box1";>
-			<h2><u>Computer Skills</h2></u>
-			<li>Microsoft Office</li>
-			<li>Linux</li>
-			<li>Active Directory</li>
-			<li>Cloud computing</li>
-		</div>
+
+
+
+<!-- This code let's the user scroll to the gallery using the tag "Gallery" which is associatied with an id = Gallery below-->
+<p>Scroll to the
+      <a href="#Gallery">Gallery</a></p>
+	  
+
+<br>
+<!-- The <div> tag allows for a division in my code. It's used as a container in html which I will style in CSS-->
+<!-- The class allows for CSS to access the specific element -->
+
+  <div class="column">
+    <div class="card">
+     <img src="images/headshot.jpeg" alt="A photo of me" width="250" height="380"</img>
+     <div class ="container">
+        <h2>Contact us!</h2>
+        <p class="title">CEO & Founder</p>
+        <p>My name is Rosie McDonnell. I started up my business in 2010 with the aim to create a place of peace and rest in the Wicklow Mountains. 
+		The Blackbird has since become well respected for it's hospitality. We cater for parties, weddings, and various festivities. Book a room and taste the magic in the mountains! </p>
+        <p>contactus@theblackbird.com</p>
+	    <b><p>0879031231</p></b>
+        <a href="about/contactforum.html"<p><button class="button">Contact</button></p></a>
+      </div>
+    </div>
+  </div>
+
+<!-- This code let's the user scroll to the menu section using the tag "#menu" which is associatied with an id = menu below-->
+<!-- Using the id attribute as an identifier it is unique to the whole document. It will be used to identify the element in CSS -->
+<h4 id="Gallery"></h4>
+<p>Scroll to the
+      <a href="#menu">Menu</a>
+    </p>
 	
-		<div class="box2";>
-			<h2><u>Other Skills</h2></u>
-			<li>Art & Design</li>
-			<li>Sports</li>
-		</div>
 	
-		<div class="box3";>
-			<h2><u>Soft Skills</h2></u>
-			<li>Communication</li>
-			<li>Teamwork</li>
-			<li>Problem-Solving</li>
-			<li>Critical Thinking</li>
-		</div>
-		<div class="warning">
-		<h1>Device too small!</h1>
-		</div>
-		
+	
+<h1>The FOOD gallery</h1>
+<h5>Click to enlarge an image!</h5>
+	<div class="gallery">
+	<div class="responsive">	
+	<!-- This piece of code allows me to target an image and then when the image is clicked it will open a large pop out image-->
+		<a target="_blank" href="images/salmon2.jpg">
+			<img src="images/salmon.jpg" alt="Infused Salmon" width="600" height="400">
+		</a>
+	<div class="desc">Let your mouth water with our Succulent Grilled Salmon infused with onions, garlic, chili and ginger. 
+	Prepared with oven cooked sweet potatoes, and a delicious side salad of spinach, cucumber and carrot. </div>
 	</div>
+	</div>
+	</div>
+	
+	</br>
+	</br>
+	</br>
+	<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/Omlette.jpg">
+			<img src="images/Omlette2.jpg" alt="Omlette" width="600" height="400">
+		</a>
+	<div class="desc">Take a dip into our Heavenly Omlette mixed with garlic, chili, spinach, pepper and goatscheese. </div>
+	</div>
+	</div>
+</div>
+</br>
+	</br>
+	</br>
+
+<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/Steak&chips.jpg">
+			<img src="images/Steak&chips.jpg" alt="Steaky Chips" width="600" height="400">
+		</a>
+	<div class="desc">Keep it real with one of our most popular dishes - Steak and chips! </div>
+	</div>
+	</div>
+</div>
+</br>
+	</br>
+	</br>
+
+<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/Ingredients.jpg">
+			<img src="images/Ingredients.jpg" alt="Spicy Dishes" width="600" height="400">
+		</a>
+	<div class="desc">Our favourite additions to our dishes - all freshly grown on our site!</div>
+	</div>
+	</div>
+</div>
+</br>
+	</br>
+	</br>
+
+<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/Outdoorarea.jpg">
+			<img src="images/Outdoorarea.jpg" alt="Outdoor seating" width="600" height="400">
+		</a>
+	<div class="desc">Eat out in the open air in our outdoor seating area. Equipped with heaters, canopy and live music on the weekend! 
+	Perfect in any kind of weather!</div>
+	</div>
+	</div>
+</div>
+</br>
+	</br>
+	</br>
+
+<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/FriedEgg.jpg">
+			<img src="images/FriedEgg2.jpg" alt="Outdoor seating" width="600" height="400">
+		</a>
+	<div class="desc">The holy grail of EGGS! Our freerange chickens are allowed to rome freely around our land. 
+	You will probably bump into them at some point - be sure to say thanks to them for the delicious meals they help us to prepare such as this!</div>
+	</div>
+	</div>
+</div>
+</br>
+	</br>
+	</br>
+
+<div class="gallery">
+	<div class="responsive">	
+		<a target="_blank" href="images/SpicyTurkey.jpg">
+			<img src="images/SpicyTurkey2.jpg" alt="Outdoor seating" width="600" height="400">
+		</a>
+	<div class="desc">COUS COUS! A food so good they named it twice! Check out one of our favorites - asian style turkey served on a large bed of cous cous.</div>
+	</div>
+	</div>
+
+</div>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
+			
+		
+	
+
+	<div class="responsive">	
+		<div style="text-align:center;">
+		
+		<!-- Here, I have uploaded a link to youtube of my cooking and using the iframe element I link it to my webpade -->
+		
+		<iframe height="450" width="500" src="https://www.youtube.com/embed/9IUk5_sHBpg">
+		</iframe>
+		
+		<div class="desc">DARE to taste the 10 chili spicy beef!</div>
+		</div>
+		</div>	
+		
+		
+	
 
  </br>
  </br>
@@ -62,33 +183,171 @@
 
  
  <div class="container">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2"><h2>
-      Education
+ 
+ <h4 id="menu"></h4>
+<p>Scroll to
+      <a href="#Wicklow">the wicklow mountain gallery</a>
+    </p>
+ 
+<h2>Check out our Delicious Menu!</h2>
+</br>
+	</br>
+	</br>
+    <div><h2>
+      Starter
     </div></h2>
-    <div class="col-md-auto">
-		<li>HDip in <u><b>CyberSecurity</b></u> (ongoing)</li>
-		<li>Level 7 Diploma in <u><b>Networking & Systems Seurity</u></b> (Dec 2020 - Dec 2021) </li>
-		<li>BSc in Food Science and Health (120 credits completed)</li>
+		<i> Beef tartar mixed with herbs & spices, served on a bed of light salad</i></br>
+		<i>Smoked salmon pieces garnished with fresh herbs and served with tomatoes and a selection of cheeses</i>
     </div>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
   
-  
-  <div class="row">
-    <div class="col"><h2>
-      Experience
-    </div></h2>
-    <div class="col-md-auto">
-        <li><u><b>IT Graduate Support</u></b> role - (Feb 2022 - ongoing)</li>
-		<li><u><b>Assistant Manager</u></b> in Restauarant (Feb 2017 - Jan 2021)</li>
-		<li>Assisting in the COVID wards during first lockdown (2020)</li>
+
+   <h2>Main Course</h2>
+   <div>
+		<h5><i>The Chef's Choice</h5></i>
+		<b>"Oven loaded Salmon"</b><i> Salmon loaded with garlic, chili, onions, ginger and herbs. 
+		Served on a bed of oven cooked sweet potatoe fries and herbs. </i></br>
+		</br>
+	</br>
+	-------------------------------------------------------------------------------------------------------------------------------------------------
+	</br>
+	</br>
+	</br>
+
+	
+        <b>"Aaaah Frittata"</b> <i>A cheesy, Italian omlete served with choice of side</i></br>
+		<b>"Steak & Chips"</b><i> Rare, Medium, well done? The choice is yours! Served with chips and salad</i></br>
+		
+    </div>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+
+
+
+    <div><h2>
+      Desert</h2>
+    </div>
+	<i>Home made vanilla ice cream served with 4cl of Baileys</i></br>
+	<i>Sticky Toffee Pudding</i></br>
+	<i>The auld Irish slice of "Buthered Brack"</i></br>
+	<i>Banana split</i></br>
+	<i>Irish Coffee served with various luxery chocolates</i></br>
+	
+   
+    
     </div>
 </div>
-	
 
-<p>Go to the
-      <a href="#top">top</a>.
+	 </br>
+ </br>
+ </br>
+
+<h4 id="Wicklow"></h4>
+<p>Scroll to the
+      <a href="#suggestions">Suggestion Forum!</a>
     </p>
-	<h2 id="bottom">Bottom of page</h2>
-<p></p>
+<h1>The Wicklow Mountains gallery</h1>
+<h5>Click to enlarge an image!</h5>
+	<div class="gallery">
+	<div class="responsive">
+	<a target="_blank" href="images/Wkm1.jpg">
+			<img src="images/Wkm1.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+			</div>
+	</div>
+		
+		
+		<div class="gallery">
+	<div class="responsive">
+	<a target="_blank" href="images/Wkm2.jpg">
+			<img src="images/Wkm2.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+		</div>
+	</div>
+
+	
+		<div class="gallery">
+	<div class="responsive">
+		<a target="_blank" href="images/Wkm3.jpg">
+			<img src="images/Wkm3.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+		</div>
+	</div>
+	
+		<div class="gallery">
+	<div class="responsive">
+		<a target="_blank" href="images/Wkm4.jpg">
+			<img src="images/Wkm4.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+		</div>
+	</div>
+		
+		<div class="gallery">
+	<div class="responsive">
+		<a target="_blank" href="images/Wkm5.jpg">
+			<img src="images/Wkm5.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+		</div>
+	</div>
+		
+		<div class="gallery">
+	<div class="responsive">
+		<a target="_blank" href="images/Wkm6.jpg">
+			<img src="images/Wkm6.jpg" alt="Wicklow mountains" width="600" height="400">
+		</a>
+	</div>
+	</div>
+	</br>
+	</br>
+	</br>
+	<h4 id="suggestions"></h4>
+	
+    </p>
+<h1>Please post your suggestions below! <br><span id="main"></span></h1>
+		
+		<button onclick="addToEnd()">Add suggestion</button>
+		<button onclick="removeFromEnd()">Remove</button>
+		<p>Scroll back to the
+      <a href="#top">TOP</a>
+    </p>
+		
+		
+		<script src="suggestions.js"></script>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+		</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+		</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+
+
 </body>
 </html>
