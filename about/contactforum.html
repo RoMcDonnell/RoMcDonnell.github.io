@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<img src="../images/Logo.PNG" alt="Logo">
+	<script src="../script.js"> </script>
+
+	  <link rel="stylesheet" href="../style/contactforum.css">
+      <title>Contact Forum</title>
+	 <h1>Enter your details and we will contact you!</h1>
+	
+		<body>
+		
+			
+				<form id="hide">
+
+
+
+					Name:<input type="text" id="name"/><br/>
+					
+					Phone number:<input type="number" id="number"/><br/>
+	
+					Email:<input type="email" id="email"/><br/>
+					
+					Query:<input type="query" id="query"/><br/>
+
+					<button onclick="myFunction()" id="submit">Submit </button>
+
+				</form>
+				
+				<script>
+					document.getElementById("submit").addEventListener("click", submit);
+
+				</script>
+
+    </body>
+
+</html>
